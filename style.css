@@ -86,7 +86,7 @@ body{
 .slider{
   visibility: hidden;
   height:20px;
-  width:200px;
+  width:100px;
   background-color:var(--sliderbgcolor);
   position: relative;
 }

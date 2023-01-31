@@ -39,6 +39,7 @@ body{
   justify-content: center;
   align-items: center;
   transition: all 2s ease-in-out;
+  cursor: pointer;
 }
 #game{
   background-color: var(--gamecolor);
@@ -57,13 +58,24 @@ body{
   cursor: pointer;
   background-color: var(--btnbgcolor);
 }
+#btn1{
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  /* margin: 1rem auto; */
+  /* display: none; */
+  cursor: pointer;
+  background-color: var(--btnbgcolor);
+}
 #restart{
-  font-size: 2rem;
+  font-size: 1rem;
+  display: flex;
   padding: 0.5rem 2rem;
   border: 3px solid black;
   border-radius: 5px;
   margin: 1rem auto;
-  display: block;
+  /* display: block; */
   cursor: pointer;
   background-color: var(--restartbgcolor);
 }
@@ -106,4 +118,11 @@ canvas {
   /* display: none; */
   position: absolute;
   top: 50px;
+}
+.box{
+  width: 50%;
+  margin-left: 32%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
